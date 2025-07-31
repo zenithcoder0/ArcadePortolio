@@ -3,9 +3,9 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AppLayout } from "./layouts/AppLayout";
 import { MainMenu } from "./pages/MainMenu";
+import { Game } from "./pages/Game";
 
 // Placeholder pages:
-const Game = () => <div>Game Screen</div>;
 const About = () => <div>About Page</div>;
 const Resume = () => <div>Resume (Skill Tree?)</div>;
 const Credits = () => <div>Credits</div>;
